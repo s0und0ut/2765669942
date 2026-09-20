@@ -1,0 +1,27 @@
+name: update-geoip
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Genera geoip.rsc
+        run: |
+          {
+            echo '/ip firewall address-list remove [find list=geoip_blocked]'
+            for c in cn ru in ir; do
+              curl -fsS https://www.ipdeny.com/ipblocks/data/aggregated/$c-aggregated.zone \
+                | sed 's|.*|/ip firewall address-list add list=geoip_blocked address=&|'
+            done
+          } > geoip.rsc
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add geoip.rsc
+          git diff --cached --quiet || (git commit -m "update geoip" && git push)
