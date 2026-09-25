@@ -15686,6 +15686,8 @@
 /ip firewall address-list add list=geoip_blocked address=103.60.208.0/21
 /ip firewall address-list add list=geoip_blocked address=103.60.218.0/23
 /ip firewall address-list add list=geoip_blocked address=103.60.244.0/22
+/ip firewall address-list add list=geoip_blocked address=103.61.12.0/24
+/ip firewall address-list add list=geoip_blocked address=103.61.15.0/24
 /ip firewall address-list add list=geoip_blocked address=103.61.32.0/22
 /ip firewall address-list add list=geoip_blocked address=103.61.52.0/22
 /ip firewall address-list add list=geoip_blocked address=103.61.56.0/22
