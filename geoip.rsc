@@ -20850,6 +20850,7 @@
 /ip firewall address-list add list=geoip_blocked address=198.17.7.0/24
 /ip firewall address-list add list=geoip_blocked address=198.51.6.0/23
 /ip firewall address-list add list=geoip_blocked address=198.56.16.0/23
+/ip firewall address-list add list=geoip_blocked address=198.61.8.0/23
 /ip firewall address-list add list=geoip_blocked address=198.147.203.0/24
 /ip firewall address-list add list=geoip_blocked address=198.217.248.0/23
 /ip firewall address-list add list=geoip_blocked address=199.67.76.0/22
