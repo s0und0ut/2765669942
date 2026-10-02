@@ -363,6 +363,7 @@
 /ip firewall address-list add list=geoip_blocked address=43.241.48.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.76.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.80.0/20
+/ip firewall address-list add list=geoip_blocked address=43.241.100.0/23
 /ip firewall address-list add list=geoip_blocked address=43.241.112.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.168.0/21
 /ip firewall address-list add list=geoip_blocked address=43.241.176.0/21
@@ -14409,6 +14410,7 @@
 /ip firewall address-list add list=geoip_blocked address=43.241.40.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.60.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.64.0/21
+/ip firewall address-list add list=geoip_blocked address=43.241.102.0/23
 /ip firewall address-list add list=geoip_blocked address=43.241.116.0/22
 /ip firewall address-list add list=geoip_blocked address=43.241.120.0/21
 /ip firewall address-list add list=geoip_blocked address=43.241.128.0/21
@@ -14421,6 +14423,7 @@
 /ip firewall address-list add list=geoip_blocked address=43.242.120.0/21
 /ip firewall address-list add list=geoip_blocked address=43.242.208.0/21
 /ip firewall address-list add list=geoip_blocked address=43.242.228.0/22
+/ip firewall address-list add list=geoip_blocked address=43.242.234.0/23
 /ip firewall address-list add list=geoip_blocked address=43.242.244.0/22
 /ip firewall address-list add list=geoip_blocked address=43.243.36.0/22
 /ip firewall address-list add list=geoip_blocked address=43.243.76.0/22
@@ -20764,6 +20767,7 @@
 /ip firewall address-list add list=geoip_blocked address=192.58.101.0/24
 /ip firewall address-list add list=geoip_blocked address=192.83.157.0/24
 /ip firewall address-list add list=geoip_blocked address=192.84.219.0/24
+/ip firewall address-list add list=geoip_blocked address=192.86.133.0/24
 /ip firewall address-list add list=geoip_blocked address=192.135.102.0/24
 /ip firewall address-list add list=geoip_blocked address=192.140.152.0/22
 /ip firewall address-list add list=geoip_blocked address=192.146.189.0/24
@@ -23023,6 +23027,7 @@
 /ip firewall address-list add list=geoip_blocked address=195.114.4.0/23
 /ip firewall address-list add list=geoip_blocked address=195.114.8.0/23
 /ip firewall address-list add list=geoip_blocked address=195.137.167.0/24
+/ip firewall address-list add list=geoip_blocked address=195.137.207.0/24
 /ip firewall address-list add list=geoip_blocked address=195.140.218.0/24
 /ip firewall address-list add list=geoip_blocked address=195.146.32.0/19
 /ip firewall address-list add list=geoip_blocked address=195.149.127.0/24
